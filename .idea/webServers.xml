@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="afb81b78-17c9-455b-8fcb-e59c4a1262c2" name="travel-agency" url="http://localhost:5173/dashboard">
+        <fileTransfer mountedRoot="C:\Users\Rahe\WebstormProjects\travel-agency" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
