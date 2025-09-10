@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e15ef16-c3de-4ae0-a17a-7e05bdc0ea79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/appwrite/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/appwrite/client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MobileSidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NavItems.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/StatsCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/TripCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/appwrite/trips.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin/create-trip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin/trip-detail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin/trips.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/root/sign-in.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/appwrite/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/appwrite/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/appwrite/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/appwrite/client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/admin/admin-layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/admin-layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/admin/all-users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/all-users.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/admin/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/NavItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavItems.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -43,6 +43,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;JavaScript Debug.localhost:5173.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.localhost:5174.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.localhost:5179.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.localhost:5181.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.localhost:5183.executor&quot;: &quot;Debug&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Node.js.routes.ts.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -66,13 +71,29 @@
       <recent name="C:\Users\Rahe\WebstormProjects\travel-agency\app" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="routes.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app/routes.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/app">
+  <component name="RunManager" selected="JavaScript Debug.localhost:5174">
+    <configuration name="localhost:5173" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5173/">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:5174" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5174/">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:5179" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5179/">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:5181" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5181/">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:5183" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5183/">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.routes.ts" />
+        <item itemvalue="JavaScript Debug.localhost:5173" />
+        <item itemvalue="JavaScript Debug.localhost:5174" />
+        <item itemvalue="JavaScript Debug.localhost:5183" />
+        <item itemvalue="JavaScript Debug.localhost:5181" />
+        <item itemvalue="JavaScript Debug.localhost:5179" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +119,20 @@
       <workItem from="1753010585898" duration="213000" />
       <workItem from="1753798252441" duration="99000" />
       <workItem from="1754475373575" duration="8128000" />
-      <workItem from="1754650257978" duration="20147000" />
+      <workItem from="1754650257978" duration="23487000" />
+      <workItem from="1754675685079" duration="548000" />
+      <workItem from="1754676437788" duration="1946000" />
+      <workItem from="1754744207378" duration="1229000" />
+      <workItem from="1755774953541" duration="6078000" />
+      <workItem from="1755781170173" duration="1250000" />
+      <workItem from="1755782435013" duration="575000" />
+      <workItem from="1755783020930" duration="1802000" />
+      <workItem from="1755784848811" duration="14393000" />
+      <workItem from="1755860081428" duration="1357000" />
+      <workItem from="1755861455640" duration="656000" />
+      <workItem from="1755862142134" duration="11962000" />
+      <workItem from="1757335687754" duration="9280000" />
+      <workItem from="1757445467310" duration="4905000" />
     </task>
     <servers />
   </component>
